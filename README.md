@@ -4,6 +4,10 @@
 - copy ./config/example.js to ./config/index.js and update with connection info
 
 ```
+git clone https://github.com/stlbucket/skidmarks.git
+```
+
+```
 npm install
 ```
 
