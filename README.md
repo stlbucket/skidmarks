@@ -1,7 +1,7 @@
 # skidmarks
 
 - make a postgres database
-- update /config/index with connection info
+- copy ./config/example.js to ./config/index.js and update with connection info
 
 ```
 npm install
