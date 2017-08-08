@@ -61,3 +61,14 @@ query {
     }
   }
 }```
+
+```
+mutation {
+  authenticate (input: {
+    username: "ryan"
+    password: "$ECR#T"
+  }) {
+    jwtToken
+  }
+}
+```
