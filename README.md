@@ -60,7 +60,9 @@ query {
       }
     }
   }
-}```
+}
+```
+
 
 ```
 mutation {
@@ -70,5 +72,4 @@ mutation {
   }) {
     jwtToken
   }
-}
-```
+}```
