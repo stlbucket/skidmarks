@@ -1,11 +1,15 @@
 # skidmarks
 
-- make a postgres database
-- update /config/index with connection info
+```
+git clone https://github.com/stlbucket/skidmarks.git
+```
 
 ```
 npm install
 ```
+
+- make a postgres database
+- copy ./config/example.js to ./config/index.js and update with connection info
 
 ```
 ./dbMigrationScripts/dev-db-full-rebuild.sh
