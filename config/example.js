@@ -1,4 +1,4 @@
-process.env.DB_CONNECTION_STRING = 'postgres://postgres:fbktp@$sword@localhost/skidmarks'
+process.env.DB_CONNECTION_STRING = 'postgres://USER:PASSWORD@localhost/skidmarks'
 process.env.SCHEMAS_TO_GRAPHQL = [ 'skidmarks' ]
 process.env.PG_DEFAULT_ROLE = 'skidmarks_anonymous'
 process.env.GRAPHIQL = true
