@@ -1,0 +1,37 @@
+{
+  "name": "skid-marks-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "command-line-args": "^4.0.6",
+    "express": "^4.15.3",
+    "fbkt-clog": "^1.0.5",
+    "knex": "^0.13.0",
+    "knex-migrate": "^1.3.0",
+    "pg": "^6.2.2",
+    "pg-escape": "^0.2.0",
+    "pm2": "^2.5.0",
+    "postgraphql": "^4.0.0-alpha1.3",
+    "postgraphql-hook": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lerna": "^2.0.0",
+    "mocha": "^3.2.0",
+    "standard": "^10.0.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha ./src/**/spec.js ./src/**/*.spec.js",
+    "standard": "standard ./src/**/*.js --fix --env mocha"
+  },
+  "standard": {
+    "ignore": [
+      "/dist"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

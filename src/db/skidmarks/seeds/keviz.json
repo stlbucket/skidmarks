@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "firstName": "Kevin",
+      "lastName": "Ryan",
+      "email": "kevin.fudo.ryan@gmail.com",
+      "cellPhone": "",
+      "username": "ryan",
+      "password": "$ECR#T"
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Burkett",
+      "email": "stlbucket@gmail.com",
+      "cellPhone": "2066606219",
+      "username": "bucket",
+      "password": "$ECR#T"
+    }
+  ]
+}
