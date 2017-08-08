@@ -74,3 +74,5 @@ mutation {
   }
 }
 ```
+
+![Alt text](/src/db/skidmarks/skidmarks.png?raw=true "DB Model")
