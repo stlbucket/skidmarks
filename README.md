@@ -5,6 +5,10 @@ git clone https://github.com/stlbucket/skidmarks.git
 ```
 
 ```
+npm install -g knex-migrate
+```
+
+```
 npm install
 ```
 
